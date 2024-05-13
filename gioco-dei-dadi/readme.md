@@ -1,12 +1,19 @@
-Consegna:
-:avviso: creiamo una sottocartella per ciascun esercizio
-Gioco dei dadi
-Il giocatore gioca contro il computer.
-Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
-Stabilire il vincitore, in base a chi fa il punteggio più alto.
-Mail
-Chiedi all’utente la sua email,
-controlla che sia nella lista di chi può accedere,
-stampa un messaggio appropriato sull’esito del controllo.
-Saltare a piè dispari [Bonus]
-Crea un array vuoto. Chiedi per 6 volte all’utente di inserire un numero, se è pari inseriscilo nell’array
+Gioco dei dadi:
+
+- il giocatore gioca contro al computer.
+
+
+1. generiamo un numero random da 1 a 6, sia per il giocatore sia per il computer:
+
+    1. chiediamo alla macchina di generare un numero random da 1 a 6:
+        - generiamo un numero random da 1 a 6
+        - il numero viene affidato ad una variabile chiamata "Computer"
+
+    2. chiediamo alla macchina di generare un numero random da 1 a 6:
+        - generiamo un numero random da 1 a 6
+        - il numero viene affidato ad una variabile chiamata "User"
+
+2. Stabilire il vincitore, in base a chi ricevera' il numero piu' alto:
+    - se il numero di "Computer" e "User" sono uguali, il gioco termina e viene stampato "pareggio"
+    - se il numero di 'Computer e' piu' alto: viene stampato "Computer wins"
+    - se il numero di User e' piu' alto : viene stampato "User wins"
